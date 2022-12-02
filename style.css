@@ -1,0 +1,107 @@
+.body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../webpage/back-ground.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    font-family:Comic Sans MS;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font: bold;
+}
+.span{
+    color: blue;
+
+}
+nav ul li{
+    font-family:sans-serif;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size:15px;
+    outline: none;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+.about-body{
+    background-color:#b6b6b6;
+}
+.about-h1{
+    font-size: larger;
+    color:black;
+    position: absolute;
+    top: 20%;
+    left: 900px;
+}
+.about-div{
+    font-size: large;
+    color: black;
+    position: absolute;
+    top: 35%;
+}
+.about-game-div{
+    font-size: large;
+    color: black;
+    position: absolute;
+    top: 55%;
+}
+a{  
+    color: white;
+    text-decoration: none;
+}
+.about-movie-div{
+    font-size: large;
+    color: black;
+    position:absolute;
+    top:80%;
+}
+.contact-body{
+    background-color: darkorange;
+}
+.contact-sec{
+    font-family:sans-serif;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size:15px;
+    color: white;  
+    position: absolute; 
+    top: 25%;
+    left: 10%;
+}
+section div a{
+    color: white;
+    font-size: 22px;
+}
+section div{
+    padding:10px 0px 10px;
+}
+.img{
+    height: auto;
+    width:20%;
+    border-radius: 100%;
+    position:absolute;
+    top: 200px;
+    left: 1100px;
+}
